@@ -2,9 +2,37 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <style type="text/css">
+      h1,div {
+        font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+        letter-spacing: 0.01rem;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 1.5;
+      }
+      h1 {font-size: 35px;}
+      .normal {font-size: 22px;}
+      /* an image */
+      .crop {
+          width: 420px;
+          height: 450px;
+          overflow: hidden;
+      }
+      .crop img {
+          width: 400px;
+          height: 450px;
+          margin: -25px 0 0 50px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <h1>Hello World  <span class="normal">- This is Neko Piano site.</span></h1>
+    <div class="crop"><!--420x610--><img src="outreachingcat.jpg"></div>
+    <div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="Neko Piano site" data-via="nekopiano" data-size="large" data-related="nekopiano" data-hashtags="nekopiano">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>
+    <div>created by nekopiano, Neko Piano, 猫ピアノ, ねこピアノ, ネコピアノ, (ΦωΦ)</div>
   </body>
 </html>
