@@ -39,6 +39,18 @@
     </script>
   </head>
   <body>
+    <!--just for facebook-->
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=540168335995126&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <h1>Hello World  <span class="normal">- This is Neko Piano site.</span></h1>
     <div>
       <span style="style="float:left;>
@@ -52,9 +64,15 @@
       <iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=nekopolis-22&o=9&p=9&l=ez&f=ifr&f=ifr" width="180" height="150" scrolling="no" marginwidth="0" marginheight="0" border="0" frameborder="0" style="border:none;"></iframe>
       </span>
     </div>
+    <!--SNS-->
     <div>
       <a href="https://twitter.com/share" class="twitter-share-button" data-text="Neko Piano site" data-via="nekopiano" data-size="large" data-related="nekopiano" data-hashtags="nekopiano">Tweet</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <a href="https://twitter.com/nekopiano" class="twitter-follow-button" data-show-count="false">Follow @nekopiano</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <span style="position:relative; top:-10px; left:25px">
+      <div class="fb-like" data-href="http://www.nekopiano.com/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+      </span>
     </div>
     <div>created by nekopiano, Neko Piano, 猫ピアノ, ねこピアノ, ネコピアノ, (ΦωΦ)</div>
   </body>
