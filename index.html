@@ -31,6 +31,12 @@
           height: 350px;
           margin: 0px 0 0 50px;
       }
+
+      .snsButton {
+        float: left;
+        margin: 1em;
+      }
+
     </style>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -91,7 +97,7 @@
     <!--SNS-->
     <div style="margin: 1em;">
       <!--Twitter-->
-      <div style="float: left;">
+      <div class="snsButton">
         <a href="https://twitter.com/share" class="twitter-share-button" data-text="Neko Piano site" data-via="nekopiano" data-size="large" data-related="nekopiano" data-hashtags="nekopiano">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         <a href="https://twitter.com/nekopiano" class="twitter-follow-button" data-show-count="false">Follow @nekopiano</a>
@@ -99,12 +105,14 @@
       </div>
       <!--Facebook-->
       <!-- <div style="position:relative; top:-10px; left:25px"> -->
-      <div>
+      <div class="snsButton">
+        fb
         <div class="fb-like" data-href="http://www.nekopiano.com/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
       </div>
       <!--Google+-->
       <!-- <div style="position:relative; left:40px"> -->
-      <div>
+      <div class="snsButton">
+        gp
         <!-- Place this tag where you want the +1 button to render. -->
         <div class="g-plusone"></div>
         <!-- Place this tag after the last +1 button tag. -->
@@ -117,7 +125,8 @@
         </script>
       </div>
       <!--Line-->
-      <div>
+      <div class="snsButton">
+        line
         <script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
         <script type="text/javascript">
         new media_line_me.LineButton({"pc":false,"lang":"ja","type":"a","text":"ねこピアノのサイト Neko Piano","withUrl":true});
