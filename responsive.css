@@ -15,25 +15,23 @@ h1,h2,div {
 	line-height: 0.5;
 }
       
-h1,h2 {
+h1 {
 	font-size: 35px;
+}
+
+h2 {
+	font-size: 22px;
 }
 
 .normal {font-size: 22px;}
 
 .crop {
-/*          width: 10em;
-          height: 10em;*/
-	/*width: 200px;
-	height: 200px;*/
-
     width: 400px;
     height: 350px;
 	overflow: hidden;
 }
 .crop img {
-          /*width: 25em;*/
-          /*width: 100%;*/
+	/* 420x610 */
     width: 400px;
     height: 350px;
 	margin: 0px 0 0 50px;
